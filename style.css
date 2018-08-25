@@ -1,0 +1,21 @@
+div {
+	position: relative;
+	margin:40px;
+}
+
+#myTitle {
+	/*margin: 25px;
+	width: 100%;*/
+	background-color: #E84B0D;
+	text-align: center;
+	/*font-size: 24px;
+	font-family: sans-serif;*/
+	color: #fff !important;
+
+}
+
+#actButton {
+	/*width: 100px;
+	margin: 25px;*/
+}
+ 
