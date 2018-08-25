@@ -37,7 +37,7 @@ console.log(targetDiv.innerHTML);
 
 function domWork() {
 	var targetDiv = document.getElementById('theDiv');
-	//targetDiv.style.background = #bbbbf1;
+	targetDiv.style.backgroundColor = "#bbbbf1";
 	console.log(targetDiv.innerHTML);
 }
 
@@ -46,4 +46,7 @@ document.getElementById('actButton').onclick=function(){
 	addNewContent();
 }
 
+document.getElementById('work').onclick=function(){
+	domWork();
+}
 
